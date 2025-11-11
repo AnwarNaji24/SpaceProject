@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("Pectures/space.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px auto;
+    width: 80%;
+    max-width: 500px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 10px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.astronaut {
+    width: 150px;
+    height: auto;
+    border-radius: 0%;
+
+}
+
+.quiz-card {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px auto;
+    width: 80%;
+    max-width: 500px;
+    text-align: left;
+}
+
+.quiz-card input[type="radio"] {
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.quiz-card label {
+    display: block;
+    margin: 5px 0;
+    font-size: 16px;
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 25px;
+
+}
+
+.btn {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 25px;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.facts {
+    display:inline-block;
+    padding: 40px;
+}
+
+.fact-card {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.emoji {
+    font-size:50pt;
+    margin-bottom: 10px;
+}
+
+#score {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px auto;
+    width: 80%;
+    max-width: 500px;
+}
+
+.result {
+    font-weight: bold;
+    text-align: right;
+}
+  
+.correct{ 
+    color: #42b442; 
+}
+
+.wrong { 
+    color: #d70606; 
+}
+
+#retry {
+    margin: 30px;
+}
