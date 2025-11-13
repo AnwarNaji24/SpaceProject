@@ -39,6 +39,8 @@ document.getElementById("quizForm").addEventListener("submit", function(e){
     
     // Create a "Try Again" button dynamically
     var retryContainer = document.getElementById("retry");
+    retryContainer.innerHTML = "";     // Clear any existing "Try Again" button before adding a new one
+    
     var btn = document.createElement("a");   // Create a new anchor element
     btn.href  = "Quiz.html";                 // Link it back to the quiz page
     btn.textContent = "Try Again";           // Button text
