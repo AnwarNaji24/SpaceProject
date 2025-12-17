@@ -1,0 +1,105 @@
+/* reset */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* body background */
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url("Pectures/space.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* glass card */
+.card {
+  width: 340px;
+  padding: 30px;
+  border-radius: 20px;
+
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+
+  text-align: center;
+  color: #fff;
+}
+
+/* avatar container */
+.avatar {
+  width: 90px;
+  height: 90px;
+  margin: 0 auto 20px;
+  border-radius: 50%;
+  overflow: hidden;
+
+  background: rgba(255,255,255,0.2);
+}
+
+/* avatar image */
+.avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.9;   /* شفافية خفيفة */
+}
+
+/* inputs */
+input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+
+  border-radius: 10px;
+  border: none;
+  outline: none;
+
+  background: rgba(255, 255, 255, 0.25);
+  color: #fff;
+}
+
+input::placeholder {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+/* button */
+button {
+  width: 100%;
+  padding: 12px;
+  border-radius: 12px;
+  border: none;
+
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+/* link */
+a {
+  display: block;
+  margin-top: 12px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  opacity: 0.85;
+}
+
+a:hover {
+  opacity: 1;
+}
